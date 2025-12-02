@@ -1,0 +1,11 @@
+.bg-darkblue {
+    background-color: #00008b;
+}
+.dark-marble-bg {
+    background-image: url('/Funeral/img/dark-marble-background.jpg');
+}
+.grey-concrete-bg {
+    background-image: url('/Funeral/img/grey-concrete-wall-background.jpg');
+    background-attachment: fixed;
+    
+}
