@@ -2,10 +2,10 @@
     background-color: #00008b;
 }
 .dark-marble-bg {
-    background-image: url('/img/dark-marble-background.jpg');
+    background-image: url('img/dark-marble-background.jpg');
 }
 .grey-concrete-bg {
-    background-image: url('/img/grey-concrete-wall-background.jpg');
+    background-image: url('img/grey-concrete-wall-background.jpg');
     background-attachment: fixed;
     
 
