@@ -1,13 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
 .bg-darkblue {
     background-color: #00008b;
 }
 .dark-marble-bg {
-    background-image: url('img/dark-marble-background.jpg');
+    background-image: url('/Funeral/img/dark-marble-background.jpg');
 }
 .grey-concrete-bg {
-    background-image: url('img/grey-concrete-wall-background.jpg');
-    
+    background-image: url('/Funeral/img/grey-concrete-wall-background.jpg');
     background-attachment: fixed;
     
-
+}
+body {
+    font-family: "Merriweather", serif;
+}
+img {
+transition: all 2s ease-in-out;
+width:100%;
+}
+.img-zoom {
+    overflow: hidden;
+}
+img:hover {
+    transform: scale(2,2);
+    cursor: pointer;
 }
