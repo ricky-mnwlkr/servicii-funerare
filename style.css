@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+.grey-concrete-bg {
+    background-image: url('/Funeral/img/grey-concrete-wall-background.jpg');
+    background-attachment: fixed;
+    
+}
+body {
+    font-family: "Merriweather", serif;
+}
+
+.c-banner {
+    z-index: 1000 !important;
+    text-shadow:
+    1px 1px 1px rgb(8, 1, 1),
+    2px 2px 1px rgb(19, 3, 3);
+}
+.carousel-item img {
+    object-fit:cover;
+    object-position: center;
+    overflow: hidden;
+    height:100vh;
+}
+/* .carousel-item:before {
+    content: "";
+    background-image: 
+    linear-gradient(
+        to bottom, 
+        transparent, rgba (0,0,0,1)
+    );
+    display:block;
+    position:absolute;
+    top:0;
+    width:100vw;
+    height:100vh;
+} */
+
+/*
+img {
+transition: all 2s ease-in-out;
+width:100%;
+}
+.img-zoom {
+    overflow: hidden;
+}
+img:hover {
+    transform: scale(2,2);
+    cursor: pointer;
+}
+    /*
