@@ -2,7 +2,7 @@
 
 
 .grey-concrete-bg {
-    background-image: url('/Funeral/img/grey-concrete-wall-background.jpg');
+    background-image: url('/img/grey-concrete-wall-background.jpg');
     background-attachment: fixed;
     
 }
@@ -48,4 +48,5 @@ img:hover {
     transform: scale(2,2);
     cursor: pointer;
 }
+
     /*
